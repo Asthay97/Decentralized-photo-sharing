@@ -1,8 +1,28 @@
-## ```"Decentralized Photo Social Media."```
+## `Decentralized Photo Storage usign IPFS`
 
-![Video URL](https://emojipedia-us.s3.amazonaws.com/content/2020/04/05/yt.png)
+A webapp for storing photos in a decentralised fashion using IPFS. Also the images can be liked by tipping (0.1 ETH) from self or others in ethers.
 
-[Tutorial URL](https://www.youtube.com/watch?v=8rhueOcTu8k)
+### Pre requisites
 
-## 🔧 Project Diagram:
-![Project Diagram](https://i.gyazo.com/e7fa5d05ef7806419b4897ecc668a045.png)
+Install and run the following:
+
+- Metamask wallet installed in your browser
+- Ganache
+- Node
+- Npm
+- Git
+
+## Run the project
+
+To checkout the project, use the following commands:
+
+- `git clone <repo_name>`
+- `git checkout main`
+- `npm install`
+
+- Start ganache
+- `npm start`
+- Connect your frontend(localhost:3000) to metamask wallet and import the accounts from ganache/create new accounts.
+
+Tech stack: Reactjs, HTML, CSS, Solidity, Truffle
+\*\* Note: every photo can be tipped with 0.1 ETH for each transaction.

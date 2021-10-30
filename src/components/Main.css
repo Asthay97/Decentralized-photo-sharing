@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: whitesmoke;
+}
+.display_images {
+  background-color: #f8f8f8;
+  height: 90vh;
+  width: 32vw;
+  display: grid;
+  place-items: center;
+  margin-top: 10vh;
+  margin-left: 30vw;
+}
+.main_upload_image {
+  background-color: #f8f8f8;
+  height: 35vh;
+  width: 21vw;
+  place-items: center;
+  margin-top: -70vh;
+  margin-left: 72vw;
+  background-color: white;
+  position: fixed;
+  border-radius: 0.4vw;
+  box-shadow: -1px 0px 10px -6px rgb(24, 24, 24);
+}
+
+.card {
+  background-color: #ffffff;
+  height: 77vh;
+  width: 32vw;
+  margin-top: 2.5vh;
+  margin-bottom: 2.5vh;
+  border-color: rgb(209, 208, 208);
+  border-radius: 0.3vw;
+  border-top-left-radius: 0.3vw;
+  border-top-right-radius: 0.3vw;
+  box-shadow: -1px 0px 10px -6px rgb(24, 24, 24);
+}
+
+.card_header {
+  height: 10vh;
+  width: 100%;
+  background-color: white;
+  display: inline;
+  border-radius: 0.3vw;
+}
+
+.card_header > div {
+  display: inline-block;
+  background-color: white;
+}
+.header_identicon > img {
+  margin-left: 0.5vw;
+  margin-top: 0.7vw;
+  height: 3vh;
+  width: 1.5vw;
+  background-color: white;
+}
+
+.author {
+  margin-left: 0.5vw;
+  margin-top: 0.7vw;
+  place-items: center;
+  vertical-align: middle;
+}
+
+.image_ipfs {
+  margin-top: -1.6vw;
+  height: 60vh;
+  width: 100%;
+  object-fit: fill;
+}
+
+.total_tip {
+  background-color: white;
+  display: inline;
+  margin-left: 0.7vw;
+}
+.total_tip > span {
+  background-color: white;
+}
+
+.img_desc {
+  background-color: white;
+  margin-left: 0.7vw;
+}
+
+.tip_button {
+  place-items: center;
+  margin-left: 22.5vw;
+  margin-top: 1vh;
+  transition-duration: 0.4s;
+  width: 7%;
+  height: 38px;
+  background-color: rgba(144, 142, 142, 0.644);
+  color: white;
+  border-radius: 20px;
+  border: none;
+  font-size: 15px;
+  box-shadow: -1px 0px 10px -6px rgb(24, 24, 24);
+}
+
+.tip_button:hover {
+  background-color: rgb(71, 66, 66);
+  border: none;
+  border-radius: 19px;
+  color: whitesmoke;
+  font-size: 15px;
+}

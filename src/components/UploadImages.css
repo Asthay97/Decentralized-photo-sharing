@@ -1,0 +1,74 @@
+.image_description {
+  background-color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  place-items: center;
+}
+
+input {
+  place-items: center;
+  background-color: white;
+  margin-left: 6vw;
+  margin-top: 3vh;
+  outline: 0;
+  border-width: 0 0 1px;
+  border-color: black;
+  place-items: center;
+}
+
+input:focus {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: gray;
+}
+
+.upload_images {
+  background-color: white;
+  place-items: center;
+}
+
+.upload_images > h3 {
+  background-color: white;
+  place-items: center;
+  text-align: center;
+  margin-top: 4vh;
+}
+
+.upload_images > form {
+  place-items: center;
+  background-color: white;
+}
+
+.upload_button {
+  background-color: white;
+  place-items: center;
+}
+
+.upload_button > button {
+  place-items: center;
+  margin-left: 8.2vw;
+  margin-top: 4vh;
+  transition-duration: 0.4s;
+  width: 24%;
+  height: 38px;
+  background-color: rgba(144, 142, 142, 0.644);
+  color: white;
+  border-radius: 6px;
+  border: none;
+  font-size: 15px;
+  box-shadow: -1px 2px 10px -6px rgb(24, 24, 24);
+}
+
+.upload_button > button:hover {
+  background-color: rgb(71, 66, 66);
+  border: none;
+  border-radius: 6px;
+  color: whitesmoke;
+  font-size: 15px;
+}
+
+.browse_button {
+  background-color: white;
+  margin-left: 2vw;
+  margin-top: 3vh;
+}

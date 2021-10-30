@@ -1,4 +1,4 @@
-## `Decentralized Photo Storage usign IPFS`
+## `Decentralized Photo Storage using IPFS`
 
 A webapp for storing photos in a decentralised fashion using IPFS. Also the images can be liked by tipping (0.1 ETH) from self or others in ethers.
 

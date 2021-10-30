@@ -17,7 +17,7 @@ Install and run the following:
 To checkout the project, use the following commands:
 
 - `git clone <repo_name>`
-- `git checkout main`
+- `git checkout master`
 - `npm install`
 
 - Start ganache
